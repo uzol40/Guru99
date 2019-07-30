@@ -18,8 +18,7 @@ class LoginTest(unittest.TestCase):
         cls.driver = webdriver.Chrome(executable_path = "C:/Users/Ujjwal/PycharmProjects/Guru99/driver/chromedriver.exe")
         cls.driver.get("http://www.demo.guru99.com/v4/")
         cls.driver.maximize_window()
-    def test_logout(self):
-        print("logout")
+
 
     def test_login(self):
         path = "C://Users/Ujjwal/Desktop/Data.xlsx"
